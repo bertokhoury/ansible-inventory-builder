@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Editors and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Inventories and config produced by build_inventory.py
+inventory.yml
+inventory.yaml
+inventory.ini
+ansible.cfg
+group_vars/
+host_vars/
+
+# Ansible local data and vault passwords
+.ansible/
+.ansible-tmp/
+*.retry
+.vault-pass
+.vault_pass
+*vault-pass*
+*vault_password*
